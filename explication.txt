@@ -1,0 +1,33 @@
+ATTENTION les 3 programmes doivent être dans le dossier romFS pour fonctionner
+
+IMPORTANT tout les fichiers dans la partie texte doivent être enregister en
+	  utf 16 LE
+
+
+
+trad.py
+sert à trad , inutile car déjà fait 
+attention ne traduit pas les "......" , se qui a pour conséquence de cut l'exécution
+du programme
+
+searche.py
+sert à trouver un mot dans les textes du jeu
+pour ce faire renter le mot dans les ....
+
+if "....." in i:
+
+attention faite attention aux espaces, aux majuscules et au charactère spéciaux
+laisser les guillemets
+
+
+replace.py
+permet de remplacer un charactère ou un mot par un autre dans tous les fichiers
+pour ce faire 
+
+      if "1" in i:
+         i=i.replace("1","2")
+
+1=mot ou lettre qu'on cherche à remplacer 
+2= ce par quoi il va être remplacer
+
+ 
